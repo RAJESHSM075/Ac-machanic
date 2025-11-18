@@ -61,17 +61,17 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
         <a href="index.html" class="navbar-brand d-flex align-items-center">
-            <h1 class="m-0"><img class="img-fluid me-3" src="img/icon/icon-02-primary.png" alt="">AAA-Mechanic</h1>
+            <h1 class="m-0"><img class="img-fluid me-3" src="img/icon/aaa1.png" alt="">AAA-Mechanic</h1>
         </a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav mx-auto bg-light pe-4 py-3 py-lg-0">
-                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="index.php" class="nav-item nav-link">Home</a>
                 <a href="about.html" class="nav-item nav-link">About Us</a>
                 <a href="service.html" class="nav-item nav-link">Services</a>
-               <a href="gallery.html" class="nav-item nav-link active">Galary</a>
+               <a href="gallery.php" class="nav-item nav-link active">Gallery</a>
                 <a href="contact.html" class="nav-item nav-link">Contact Us</a>
             </div>
              <div class="h-100 d-lg-inline-flex align-items-center d-none">
@@ -92,7 +92,7 @@
             <h1 class="display-4 text-white animated slideInDown mb-4">Gallery</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                    
                     <li class="breadcrumb-item active" aria-current="page">Gallery</li>
                 </ol>
@@ -108,140 +108,23 @@
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                 <h1 class="display-6 mb-5">Our Gallery</h1>
             </div>
-            <div class="row g-4 justify-content-center">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item">
-                        <img class="img-fluid" src="img/service-1.jpg" alt="">
-                        <!-- <div class="d-flex align-items-center bg-light">
-                            <div class="service-icon flex-shrink-0 bg-primary">
-                                <img class="img-fluid" src="img/icon/icon-01-light.png" alt="">
-                            </div>
-                            <a class="h4 mx-4 mb-0" href="">AC Installation</a>
-                        </div> -->
-                    </div>
-                </div>
-                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item">
-                        <img class="img-fluid" src="img/service-4.jpg" alt="">
-                        <!-- <div class="d-flex align-items-center bg-light">
-                            <div class="service-icon flex-shrink-0 bg-primary">
-                                <img class="img-fluid" src="img/icon/icon-04-light.png" alt="">
-                            </div>
-                            <a class="h4 mx-4 mb-0" href="">Maintenance & Repair</a>
-                        </div> -->
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item">
-                        <img class="img-fluid" src="img/service-2.jpg" alt="">
-                        <!-- <div class="d-flex align-items-center bg-light">
-                            <div class="service-icon flex-shrink-0 bg-primary">
-                                <img class="img-fluid" src="img/icon/icon-02-light.png" alt="">
-                            </div>
-                            <a class="h4 mx-4 mb-0" href="">Cooling Services</a>
-                        </div> -->
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item">
-                        <img class="img-fluid" src="img/service-3.jpg" alt="">
-                        <!-- <div class="d-flex align-items-center bg-light">
-                            <div class="service-icon flex-shrink-0 bg-primary">
-                                <img class="img-fluid" src="img/icon/icon-03-light.png" alt="">
-                            </div>
-                            <a class="h4 mx-4 mb-0" href="">Heating Services</a>
-                        </div> -->
-                    </div>
-                </div>
-                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item">
-                        <img class="img-fluid" src="img/service-2.jpg" alt="">
-                        <!-- <div class="d-flex align-items-center bg-light">
-                            <div class="service-icon flex-shrink-0 bg-primary">
-                                <img class="img-fluid" src="img/icon/icon-02-light.png" alt="">
-                            </div>
-                            <a class="h4 mx-4 mb-0" href="">Cooling Services</a>
-                        </div> -->
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item">
-                        <img class="img-fluid" src="img/service-3.jpg" alt="">
-                        <!-- <div class="d-flex align-items-center bg-light">
-                            <div class="service-icon flex-shrink-0 bg-primary">
-                                <img class="img-fluid" src="img/icon/icon-03-light.png" alt="">
-                            </div>
-                            <a class="h4 mx-4 mb-0" href="">Heating Services</a>
-                        </div> -->
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item">
-                        <img class="img-fluid" src="img/service-4.jpg" alt="">
-                        <!-- <div class="d-flex align-items-center bg-light">
-                            <div class="service-icon flex-shrink-0 bg-primary">
-                                <img class="img-fluid" src="img/icon/icon-04-light.png" alt="">
-                            </div>
-                            <a class="h4 mx-4 mb-0" href="">Maintenance & Repair</a>
-                        </div> -->
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item">
-                        <img class="img-fluid" src="img/service-5.jpg" alt="">
-                        <!-- <div class="d-flex align-items-center bg-light">
-                            <div class="service-icon flex-shrink-0 bg-primary">
-                                <img class="img-fluid" src="img/icon/icon-05-light.png" alt="">
-                            </div>
-                            <a class="h4 mx-4 mb-0" href="">Indoor Air Quality</a>
-                        </div> -->
-                    </div>
-                </div>
-                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item">
-                        <img class="img-fluid" src="img/service-2.jpg" alt="">
-                        <!-- <div class="d-flex align-items-center bg-light">
-                            <div class="service-icon flex-shrink-0 bg-primary">
-                                <img class="img-fluid" src="img/icon/icon-02-light.png" alt="">
-                            </div>
-                            <a class="h4 mx-4 mb-0" href="">Cooling Services</a>
-                        </div> -->
-                    </div>
-                </div>
-                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item">
-                        <img class="img-fluid" src="img/service-1.jpg" alt="">
-                        <!-- <div class="d-flex align-items-center bg-light">
-                            <div class="service-icon flex-shrink-0 bg-primary">
-                                <img class="img-fluid" src="img/icon/icon-01-light.png" alt="">
-                            </div>
-                            <a class="h4 mx-4 mb-0" href="">AC Installation</a>
-                        </div> -->
-                    </div>
-                </div>
-                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item">
-                        <img class="img-fluid" src="img/service-4.jpg" alt="">
-                        <!-- <div class="d-flex align-items-center bg-light">
-                            <div class="service-icon flex-shrink-0 bg-primary">
-                                <img class="img-fluid" src="img/icon/icon-04-light.png" alt="">
-                            </div>
-                            <a class="h4 mx-4 mb-0" href="">Maintenance & Repair</a>
-                        </div> -->
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item">
-                        <img class="img-fluid" src="img/service-6.jpg" alt="">
-                        <!-- <div class="d-flex align-items-center bg-light">
-                            <div class="service-icon flex-shrink-0 bg-primary">
-                                <img class="img-fluid" src="img/icon/icon-06-light.png" alt="">
-                            </div>
-                            <a class="h4 mx-4 mb-0" href="">Annual Inspections</a>
-                        </div> -->
-                    </div>
-                </div>
+          <?php
+include('./db.php');
+// Fetch all images
+$sql1 = "SELECT img FROM galleryimg";
+$result = $conn->query($sql1);
+?>
+
+<div class="row g-4 justify-content-center">
+    <?php while ($row = $result->fetch_assoc()) { ?>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="service-item">
+                <img class="img-fluid" src="./img/<?php echo $row['img']; ?>" alt="">
             </div>
+        </div>
+    <?php } ?>
+</div>
+
         </div>
     </div>
     <!-- Service End -->
@@ -252,7 +135,7 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-md-6">
-                    <h1 class="text-white mb-4"><img class="img-fluid me-3" src="img/icon/icon-02-light.png" alt="">AAA-Mechanic</h1>
+                    <h1 class="text-white mb-4"><img class="img-fluid me-3 h-25 w-25" src="img/icon/aaa.png" alt="">AAA-Mechanic</h1>
                     <span>Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.</span>
                 </div>
                  <div class="col-md-6">
@@ -278,10 +161,10 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Quick Links</h5>
-                     <a class="btn btn-link" href="index.html">Home</a>
+                     <a class="btn btn-link" href="index.php">Home</a>
                     <a class="btn btn-link" href="about.html">About Us</a>
                     <a class="btn btn-link" href="service.html">Services</a>
-                    <a class="btn btn-link" href="gallery.html">Gallery</a>
+                    <a class="btn btn-link" href="gallery.php">Gallery</a>
                     <a class="btn btn-link" href="contact.html">Contact Us</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -304,7 +187,7 @@
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                       
-                        Designed By <a href="rajesh">Rajesh codex </a>  Distributed by <a href="rajesh">SM.Rajesh</a>
+                        Designed By <a>Rajesh codex </a>  Distributed by <a>SM.Rajesh</a>
                     </div>
                 </div>
             </div>
